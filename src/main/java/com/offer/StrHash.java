@@ -1,4 +1,4 @@
-package com.com.offer;
+package com.offer;
 
 import java.util.*;
 

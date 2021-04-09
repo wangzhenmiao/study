@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b78e621b-82d5-41de-99d4-69a421a6531a" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/java/com/alg/distributeCandies/DistributeCandies.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/alg/distributeCandies/Parse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alg/isUnique/Parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alg/isUnique/Parse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/alg/isUnique/isUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alg/isUnique/isUnique.class" afterDir="false" />
-=======
       <change afterPath="$PROJECT_DIR$/src/main/java/com/com/offer/StrHash.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/design/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,10 +101,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alg/longestPalindrome/Parse.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="-247">
               <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-=======
+            </state>>
             <state relative-caret-position="19">
               <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
             </state>
@@ -144,7 +140,6 @@
                 <element signature="e#5687#5688#0" expanded="true" />
                 <element signature="e#5750#5751#0" expanded="true" />
               </folding>
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
             </state>
           </provider>
         </entry>
@@ -233,16 +228,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alg/longestPalindrome/longestPalindrome1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alg/longestPalindrome/longestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alg/longestPalindrome/Parse.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/alg/isUnique/isUnique.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alg/distributeCandies/distributeCandies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alg/distributeCandies/DistributeCandies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alg/distributeCandies/Parse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alg/isUnique/Parse.java" />
-=======
         <option value="$PROJECT_DIR$/src/main/java/com/design/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/offer/StrHash.java" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
       </list>
     </option>
   </component>
@@ -357,12 +349,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617170398479" />
-=======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617939821430" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -382,7 +371,6 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="RunManager" selected="Application.DistributeCandies">
     <configuration name="DistributeCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alg.distributeCandies.DistributeCandies" />
@@ -397,9 +385,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-=======
   <component name="RunManager" selected="Application.StrHash">
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
     <configuration name="Parse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alg.longestPalindrome.Parse" />
       <module name="study" />
@@ -413,21 +399,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
     <configuration name="isUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alg.isUnique.isUnique" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.alg.isUnique.*" />
-=======
+        </pattern>
     <configuration name="StrHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.offer.StrHash" />
       <module name="study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.com.offer.*" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,7 +497,6 @@
     <list>
       <item itemvalue="Application.longestPalindrome" />
       <item itemvalue="Application.Parse" />
-<<<<<<< HEAD
       <item itemvalue="Application.isUnique" />
       <item itemvalue="Application.DistributeCandies" />
     </list>
@@ -521,16 +504,17 @@
       <list>
         <item itemvalue="Application.DistributeCandies" />
         <item itemvalue="Application.isUnique" />
-=======
       <item itemvalue="Application.StrHash" />
     </list>
+    </recent_temporary>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StrHash" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
         <item itemvalue="Application.Parse" />
       </list>
     </recent_temporary>
+      </extension>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -542,27 +526,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617161581587</updated>
-<<<<<<< HEAD
       <workItem from="1617161583477" duration="5798000" />
-=======
       <workItem from="1617161583477" duration="2427000" />
       <workItem from="1617701823782" duration="6043000" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="5798000" />
-=======
     <option name="totallyTimeSpent" value="8470000" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
@@ -579,7 +556,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292232" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292232" />
-=======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34726223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -590,7 +566,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292232" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2675709" />
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,12 +607,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alg/longestPalindrome/Parse.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="-247">
           <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-=======
         <state relative-caret-position="19">
           <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
         </state>
       </provider>
     </entry>
@@ -666,7 +640,6 @@
           <folding>
             <element signature="e#628#650#0" expanded="true" />
           </folding>
->>>>>>> 71abd68e91d6d0d11c2c12587e956f83632b944d
         </state>
       </provider>
     </entry>
@@ -769,5 +742,6 @@
         </settings>
       </state>
     </states>
+  </component>
   </component>
 </project>
