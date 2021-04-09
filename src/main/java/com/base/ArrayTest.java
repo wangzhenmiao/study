@@ -1,5 +1,7 @@
 package com.base;
 
+import java.util.Arrays;
+
 /**
  * @ClassName ArrayTest
  * @Description
@@ -9,8 +11,24 @@ package com.base;
 public class ArrayTest {
 
     public static void main(String[] args) {
-        int [] arr = {-9,3,45,5,1,30,-5};
+        int [] arr = {-9,3,2,45,2,5,1,30,-5};
         printArray("排序之前",arr);
+        // part1:Arrays.sort函数，会对数组中的int进行排序
+        Arrays.sort(arr);
+        printArray("排序之后：",arr);
+        int value = 2;
+        // part2:Arrays.binarySearch，可以查找数组中指定值的索引
+        int index = Arrays.binarySearch(arr,value);
+        System.out.println("元素值为:"+value+"的索引为index:"+index);
+        System.out.println("=====================");
+        int array[] = new int[6];
+        // part3: Arrays.fill(arr,value),把arr数组中，填充满value
+        Arrays.fill(array, 100);
+        printArray("填充数组：",array);
+        // part4:Arrays.fill(arr ,starindex ,endindex ,value)
+        // 填充数组arr索引从startindex到endindex的值为value
+        Arrays.fill(array, 3, 6, 50);
+        printArray("修改填充数组：",array);
     }
 
     private static void printArray(String message, int array[]) {
