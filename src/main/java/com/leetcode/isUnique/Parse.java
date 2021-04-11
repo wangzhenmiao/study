@@ -1,7 +1,6 @@
-package com.alg.isUnique;
+package com.leetcode.isUnique;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @ClassName Parse

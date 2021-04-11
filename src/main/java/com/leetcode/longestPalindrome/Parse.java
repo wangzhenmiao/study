@@ -1,4 +1,4 @@
-package com.alg.longestPalindrome;
+package com.leetcode.longestPalindrome;
 
 /**
  * @ClassName Parse

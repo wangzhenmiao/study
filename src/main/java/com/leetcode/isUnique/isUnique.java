@@ -1,4 +1,4 @@
-package com.alg.isUnique;
+package com.leetcode.isUnique;
 
 import java.util.HashMap;
 

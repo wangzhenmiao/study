@@ -1,4 +1,4 @@
-package com.alg.distributeCandies;
+package com.leetcode.distributeCandies;
 
 /**
  * @ClassName distributeCandies
