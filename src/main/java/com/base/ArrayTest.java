@@ -1,6 +1,7 @@
 package com.base;
 
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @ClassName ArrayTest
@@ -29,6 +30,14 @@ public class ArrayTest {
         // 填充数组arr索引从startindex到endindex的值为value
         Arrays.fill(array, 3, 6, 50);
         printArray("修改填充数组：",array);
+
+        //part5:数组转list
+        String [] arrStr = {"abc","bcd","efg","haha"};
+        List<String> listFromArrStr = Arrays.asList(arrStr);
+        System.out.println("listFromArrStr:"+listFromArrStr);
+        Integer [] arrInt = {1,3,4,5};
+        List<Integer> listFromArr = Arrays.asList(arrInt);
+        System.out.println("listFromArr:"+listFromArr);
     }
 
     private static void printArray(String message, int array[]) {
