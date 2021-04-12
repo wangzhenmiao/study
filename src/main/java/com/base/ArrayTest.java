@@ -31,7 +31,7 @@ public class ArrayTest {
         Arrays.fill(array, 3, 6, 50);
         printArray("修改填充数组：",array);
 
-        //part5:数组转list
+        //part5:数组转list，使用Arrays.asList
         String [] arrStr = {"abc","bcd","efg","haha"};
         List<String> listFromArrStr = Arrays.asList(arrStr);
         System.out.println("listFromArrStr:"+listFromArrStr);

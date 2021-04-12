@@ -36,6 +36,7 @@ public static int longestPalindrome(String s) {
     for (int i = 0; i < length; ++i) {
         char c = s.charAt(i);//2
         count[c]++;//3
+        System.out.println("c:"+c+",count[c]:"+count[c]);
     }
 
     //4
@@ -57,14 +58,14 @@ public static int longestPalindrome(String s) {
 
 
     public static void main(String[] args) {
-  /*      String str = "abccccdd";
-        System.out.println(longestPalindrome(str));*/
-        char c = 'a';
+        String str = "abccccdd";
+        System.out.println(longestPalindrome(str));
+/*        char c = 'a';
         int i = c;
         int j = 'a';
         System.out.println("c:"+c);
         System.out.println("i:"+i);
-        System.out.println("j:"+j);
+        System.out.println("j:"+j);*/
         /* 输出值：
             c:a
             i:97
