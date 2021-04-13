@@ -24,7 +24,7 @@ public class TestMyLongest {
         }
         //一个变量记录其实索引，一个变量记录最长串的长度
         int begin = 0;
-        int maxLen = 0;
+        int maxLen = 1;
         int len = s.length();
 
         //dp[i][j],表示s.subString(i,j)是否是回文字符串
@@ -69,6 +69,6 @@ public class TestMyLongest {
             }
         }
 
-        return s.substring(begin,begin+maxLen-1);
+        return s.substring(begin,begin+maxLen);
     }
 }
