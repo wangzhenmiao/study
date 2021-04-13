@@ -9,6 +9,15 @@ package com.leetcode.longestPalindromeAgain;
  * @Description
  * @Author wangzhen
  * @Date 2021/4/12 8:47 PM
+ *
+ *
+ * 这个题目整体的思想是填充dp[i][j]这个二维数组
+ * dp[i][j]为true,表示arr[i]到arr[j]这个字符串是回文
+ * 填充顺序是先填充对角线，既i=j的情况，然后以子字符串长度L=2开始循环递增，
+ * 从对角线开始向上填充，并且填充结果也依赖之前填充的数据
+ * 最终会填充完对角线一侧的所有数据
+ *
+ *
  **/
 public class TestMyLongest {
 
@@ -25,6 +34,8 @@ public class TestMyLongest {
         //一个变量记录其实索引，一个变量记录最长串的长度
         int begin = 0;
         int maxLen = 1;
+        //因为此时已经if处理了s.length()<2的场景，所以此时最小长度是1
+        //并且因为已经处理了s.length()<2的场景，所以下边的L长度要从L=2开始
         int len = s.length();
 
         //dp[i][j],表示s.subString(i,j)是否是回文字符串
